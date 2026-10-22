@@ -1,7 +1,9 @@
 package Logic;
 
 public class Carta {
-    string 
+    private string nombre;
+    
+    public string getNombre;
 
     
 }
