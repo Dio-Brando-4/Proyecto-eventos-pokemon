@@ -1,26 +1,19 @@
 package Logic;
 
-public class Carta {
+public abstract class Carta {
     private string nombre;
-    private string poder;
     
-    public void setNombre(string nombre) {
+    public Carta(String nombre) {
         this.nombre = nombre;
     }
-
-    public string getNombre() {
+    public String getNombre() {
         return nombre;
     }
     
-    public string getPoder() {
-        return poder;
+    @Override
+    public String toString() {
+        return nombre;
     }
-
-    public void setPoder(string poder) {
-        this.poder = poder;
-    }
-
-   
 
     
 }
