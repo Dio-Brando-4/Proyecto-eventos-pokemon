@@ -1,7 +1,7 @@
 package Logic;
 
 public abstract class Carta {
-    private string nombre;
+    private String nombre;
     
     public Carta(String nombre) {
         this.nombre = nombre;

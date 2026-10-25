@@ -1,9 +1,9 @@
-
+import Logic.TipoEnergia;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("hola mundo");
+        for (TipoEnergia t : TipoEnergia.values()) {
+            System.out.println(t + " " + t.getSimbolo());;
+        }
     }
-        
-    
 }
