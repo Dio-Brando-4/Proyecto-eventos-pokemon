@@ -9,6 +9,8 @@ public enum TipoEnergia {
 
     private final String simbolo;
 
+    String Hola = "hola";
+
     TipoEnergia(String simbolo) {
     this.simbolo = simbolo;
     }
